@@ -4,25 +4,16 @@
 
 ## Estrutura do Projeto
 
-A estrutura de diretórios do projeto Flask segue boas práticas de organização:
-
 ```
-meu_projeto/
-│-- app.py
-│-- /static
-│   │-- /css
-│   │-- /img
-│   │-- /js
-│-- /templates
-│   │-- index.html
-│   │-- homepage.html
-│   │-- add_produtos.html
-│   │-- del_produtos.html
-│   │-- up_produtos.html
-│   │-- nav.html
-│   │-- footer.html
-```
-
+ app.py - Boas práticas
+ /static
+	  /css
+	  /img
+    /js - JavaScript
+/templates - modelo ou layout pronto
+	  index.html
+		add produto
+		del produto...
 ---
 
 ## Arquivo Principal: `app.py`
